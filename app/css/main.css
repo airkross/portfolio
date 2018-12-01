@@ -1,0 +1,282 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  min-height: 90px;
+  /* background-image: url(../img/bg_head.png);
+  background-repeat: no-repeat; */
+  background-color: rgb(95, 67, 57);
+  padding-top: 17px;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 7px;
+}
+
+.logo {
+  color: rgb(213, 158, 97);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px 15px;
+  transition: all .2s ease-in;
+  line-height: 1.55;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.box-icons {
+  margin: 1px;
+}
+
+.fa:hover {
+  color: rgb(248, 248, 248);
+  transition: all .2s ease-in;
+}
+
+.fa-vk {
+  padding: 7px 7px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.box-icons__link_vk {
+  display: block;
+  border-radius: 50%;
+}
+
+.fa-vk:hover {
+  border: 2px solid rgb(213, 158, 97);
+}
+
+.fa-paper-plane {
+  padding: 7px 9px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.box-icons__telegram {
+  display: block;
+  border-radius: 50%;
+}
+
+.fa-paper-plane:hover {
+  border: 2px solid rgb(213, 158, 97);
+}
+
+.fa-github {
+  padding: 7px 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.box-icons__github {
+  display: block;
+  border-radius: 50%;
+}
+
+.a-github:hover {
+  border: 2px solid rgb(213, 158, 97);
+}
+
+.fa-google-plus {
+  padding: 7px 9px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.box-icons__google {
+  display: block;
+  border-radius: 50%;
+}
+
+.fa-google-plus:hover {
+  border: 2px solid rgb(213, 158, 97);
+}
+
+.box-icons a {
+  color: #d59e61;
+}
+
+/****** Main ******/
+.breadcrumb-bg-color {
+  background-color: rgb(95, 67, 57);
+}
+
+/**** Menu ****/
+.nav ul {
+  padding-left: 0;
+}
+
+.menu {
+  padding-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu__item {
+  border-radius: 5px;
+  margin: 2px;
+  list-style: none;
+  padding: 15px 15px;
+  color: #d59e61;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  box-shadow: inset 0 -2px 3px rgba(41, 41, 41, 0.05), inset 0 0 3px rgba(202, 202, 202, 0.61);
+  background-image: linear-gradient(to top, #5f4339 0%, #5f4339 86%, #5f4339 100%);
+  transition: all .2s ease;
+}
+
+.menu__item:hover {
+  color: white;
+}
+
+.menu__link_item-1 {
+  color: rgba(255, 255, 255, .5);
+}
+
+/****** Content *******/
+.content {
+  width: 80%;
+}
+
+.card-header {
+  background-color: #5f4339;
+  color: rgb(213, 158, 97);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-me__my-photo {
+  box-shadow: 0 0 10px 2px #d59e61bf, inset 0 2px 24px rgba(213, 158, 97, .23);
+  border-radius: 50%;
+}
+
+/*********** Образование ***********/
+.block-education__school {
+  border-bottom: 2px solid #5f4339;
+}
+
+.block-education__school:last-child {
+  border: none;
+}
+
+.block-education__school-icon {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, .2), 0 2px 0 rgba(255, 255, 255, .4), inset 0 2px 0 rgba(0, 0, 0, .1);
+}
+
+.fa-graduation-cap {
+  padding: 26px;
+  display: block;
+  border-radius: 50%;
+  color: #5f4339;
+}
+
+.fa-graduation-cap:hover {
+  color: #5f4339;
+}
+
+.fa-university {
+  padding: 26px;
+  display: block;
+  border-radius: 50%;
+  color: #5f4339;
+}
+
+.fa-university:hover {
+  color: #5f4339;
+}
+
+.fa-briefcase {
+  padding: 26px;
+  display: block;
+  border-radius: 50%;
+  color: #5f4339;
+}
+
+.fa-briefcase:hover {
+  color: #5f4339;
+}
+
+.fa-book {
+  padding: 26px;
+  display: block;
+  border-radius: 50%;
+  color: #5f4339;
+}
+
+.fa-book:hover {
+  color: #5f4339;
+}
+
+/******* footer ********/
+.footer {
+  background-color: #5f4339;
+  min-height: 54px;
+  border-radius: 5px 5px 0 0;
+}
+
+.footer-coment-block p {
+  margin: 0;
+}
+
+/*** Работа с текстом ***/
+h2 {
+  color: #727070;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.block-education__school_title {
+  font-weight: 600;
+}
+
+.fa-check:hover {
+  color: #d59e61;
+  cursor: pointer;
+}
+
+.footer-coment-block__text {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+}
+
+@media screen and (max-width:992px) {
+  .menu__item {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .about-me__photo {
+    text-align: center;
+  }
+
+  .block-education__school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .block-education__school-icon {
+    margin-bottom: 20px;
+  }
+}
