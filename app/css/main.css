@@ -162,6 +162,11 @@ body {
   border-radius: 50%;
 }
 
+.about-me__desription .fa-check{
+  border-radius: 3px;
+  padding: 5px;
+}
+
 /*********** Образование ***********/
 .block-education__school {
   border-bottom: 2px solid #5f4339;
