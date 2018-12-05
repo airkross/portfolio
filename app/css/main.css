@@ -227,6 +227,16 @@ body {
   color: #5f4339;
 }
 
+.fa-commenting {
+  padding: 26px;
+  display: block;
+  border-radius: 50%;
+  color: #5f4339;
+}
+
+.fa-commenting:hover {
+  color: #5f4339;
+}
 /******* footer ********/
 .footer {
   background-color: #5f4339;
