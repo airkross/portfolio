@@ -21,6 +21,7 @@ body {
   text-decoration: none;
   font-size: 25px;
   padding: 5px 15px;
+  -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
   line-height: 1.55;
   border-radius: 6px;
@@ -38,6 +39,7 @@ body {
 
 .fa:hover {
   color: rgb(248, 248, 248);
+  -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
 }
 
@@ -132,8 +134,11 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 22px;
+  -webkit-box-shadow: inset 0 -2px 3px rgba(41, 41, 41, 0.05), inset 0 0 3px rgba(202, 202, 202, 0.61);
   box-shadow: inset 0 -2px 3px rgba(41, 41, 41, 0.05), inset 0 0 3px rgba(202, 202, 202, 0.61);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#5f4339), color-stop(86%, #5f4339), to(#5f4339));
   background-image: linear-gradient(to top, #5f4339 0%, #5f4339 86%, #5f4339 100%);
+  -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
 
@@ -158,11 +163,12 @@ body {
 }
 
 .about-me__my-photo {
+  -webkit-box-shadow: 0 0 10px 2px #d59e61bf, inset 0 2px 24px rgba(213, 158, 97, .23);
   box-shadow: 0 0 10px 2px #d59e61bf, inset 0 2px 24px rgba(213, 158, 97, .23);
   border-radius: 50%;
 }
 
-.about-me__desription .fa-check{
+.about-me__desription .fa-check {
   border-radius: 3px;
   padding: 5px;
 }
@@ -180,6 +186,7 @@ body {
   border-radius: 50%;
   width: 80px;
   height: 80px;
+  -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, .2), 0 2px 0 rgba(255, 255, 255, .4), inset 0 2px 0 rgba(0, 0, 0, .1);
   box-shadow: inset 0 0 20px rgba(0, 0, 0, .2), 0 2px 0 rgba(255, 255, 255, .4), inset 0 2px 0 rgba(0, 0, 0, .1);
 }
 
@@ -237,6 +244,7 @@ body {
 .fa-commenting:hover {
   color: #5f4339;
 }
+
 /******* footer ********/
 .footer {
   background-color: #5f4339;
@@ -285,8 +293,15 @@ h2 {
   }
 
   .block-education__school {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: center;
   }
