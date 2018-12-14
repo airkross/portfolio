@@ -184,11 +184,11 @@
                           <img class="d-block w-100" src="app/img/2-layers.png" alt="tinyone">
                         </a>
                       </div>
-                      <div class="carousel-item">
+                      <!-- <div class="carousel-item">
                         <a href="app/models/wg.html">
                           <img class="d-block w-100" src="app/img/HDR.png" alt="wg">
                         </a>
-                      </div>
+                      </div> -->
                       <div class="carousel-item">
                         <img class="d-block w-100" src="app/img/port-1.PNG" alt="portfolio">
                       </div>
@@ -278,6 +278,7 @@
         </div>
       </div>
     </main>
+
   </div>
   <!-- footer -->
   <footer class="footer animated fadeInUp" id="footer">
@@ -292,7 +293,27 @@
       </div>
     </div>
   </footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
 
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
