@@ -163,9 +163,8 @@ body {
 }
 
 .about-me__my-photo {
-  -webkit-box-shadow: 0 0 10px 2px #d59e61bf, inset 0 2px 24px rgba(213, 158, 97, .23);
-  box-shadow: 0 0 10px 2px #d59e61bf, inset 0 2px 24px rgba(213, 158, 97, .23);
-  border-radius: 50%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
 }
 
 .about-me__desription .fa-check {
