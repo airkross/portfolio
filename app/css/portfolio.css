@@ -250,7 +250,7 @@ h2 {
   }
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
   #myBtn {
     width: 100px;
     bottom: 10px;
