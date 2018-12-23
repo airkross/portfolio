@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <title>Мои работы</title>
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="76x76" href="app/img//apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="app/img//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="app/img//favicon-16x16.png">
+  <link rel="manifest" href="app/img//site.webmanifest">
+  <link rel="mask-icon" href="app/img//safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="app/libs/animate.css">
+  <link rel="stylesheet" href="app/css/portfolio.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header animated fadeInDown" id="header">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+          <a href="index.html" class="logo">
+            <strong>Guseinov Ruslan</strong>
+          </a>
+        </div>
+        <div class="col-lg-4 ml-lg-auto col-sm-12 mb-3">
+          <div class="box-icons d-flex justify-content-around">
+            <a href="https://vk.com/devilbraz" target="_black" class="box-icons__link_vk">
+              <i class="fa fa-vk fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/airkross" target="_blank" class="box-icons__github">
+              <i class="fa fa-github fa-2x"></i>
+            </a>
+            <a href="mailto:airkross123@gmail.com" target="_blank" class="box-icons__google">
+              <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main -->
+  <div class="container ">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb breadcrumb-bg-color animated pulse">
+        <li class="breadcrumb-item"><a href="index.html">Обо мне</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Мои работы /</li>
+      </ol>
+    </nav>
+    <main class="main" id="main">
+      <div class="row">
+        <div class="col">
+          <div class="flex-block d-lg-flex">
+            <!-- menu -->
+            <nav class="nav d-flex mr-lg-5 animated fadeInLeft" id="nav">
+              <ul class="menu col-sm">
+                <a href="index.html" class="menu__link">
+                  <li class="menu__item">Обо мне</li>
+                </a>
+                <a href="#" class="menu__link">
+                  <li class="menu__link_item-1 menu__item">Мои Работы</li>
+                </a>
+              </ul>
+            </nav>
+            <!-- Content -->
+            <content class="content animated fadeInRight" id="content">
+              <!-- Portfolio -->
+              <div class="card card-portfolio mb-5">
+                <h5 class="card-header">Верстка шаблона «Резюме/Портфолио» на основе BootStrap 4</h5>
+                <img class="card-img-top card__wg_img" src="app/img/port-img.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Верстка шаблона на основе BootStrap 4 «Portfolio»</h5>
+                  <p class="card-text">Разработка дизайна и шаблона производилась полностью полностью
+                    лично инициативе для того чтобы показать личные навыки работодателю. <br><br>
+                    Чтобы детальнее узнать о проекте, нажмите на кнопку «Подробнее».
+                  </p>
+                  <a href="app/models/pagePortfolio.html" class="btn btn-info">Подробнее</a>
+                </div>
+              </div>
+            </content>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link text-body" href="portfolio.html"><strong>Previous</strong></a></li>
+            <li class="page-item"><a class="page-link text-body" href="portfolio.html"><strong>1</strong></a></li>
+            <li class="page-item"><a class="page-link disabled text-secondary">2</a></li>
+            <li class="page-item"><a class="page-link disabled text-secondary">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="footer animated fadeInUp" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="footer-coment-block">
+            <p class="footer-coment-block__text">Интерактивное портфолио. <br> Гусейнов Руслан Рустамович <br>Copyright
+              ©2018</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <button onclick="topFunction()" id="myBtn" title="Прокрутить наверх">Наверх</button>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="app/js/script.js"></script>
+</body>
+
+</html>
