@@ -164,7 +164,8 @@ body {
 
 .about-me__my-photo {
   border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
 }
 
 .about-me__desription .fa-check {
@@ -274,6 +275,7 @@ body {
 }
 
 #myBtn:hover {
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   background-color: rgba(0, 0, 0, .4);
 }
